@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.create {
+    font-size: larger;
+
+}
+
+.header h1 {
+
+}
+
+.nav {
+    background-color: #f008b2;
+    padding: 10px;
+    margin: 50px;
+    display: flex;    
+}
+
+.links {
+    background-color: #000000;
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px; 
+    flex-direction: column; 
+    align-content: right;
+     
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: left;
+    align-self: flex-start;
+}
+
