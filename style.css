@@ -20,12 +20,12 @@
 }
 
 .nav {
-    background-color: #f008b2;
+    background-color: #db0276 ;
     padding: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-between;
     
@@ -76,6 +76,13 @@
     border-radius: 15px 50px;
 }
 
+.background img{
+    display: none;
+    height: 600px;
+    width: 1600px;
+      
+}
+
 
 .container {
     background-color: #ffffff;
@@ -95,6 +102,7 @@
 .items-1 {
     padding: 20px;
     margin: 10px;
+    margin-left: 0px;
     background-color: #000000;
     color: #ffffff;
 }
@@ -102,6 +110,15 @@
 .items-2 {
     padding: 20px;
     margin: 10px;
+    margin-left: 0px;
+}
+
+.items-2 h2 {
+    text-align: center;
+}
+
+.items-2 p {
+    text-align: center;
 }
 
 
@@ -116,6 +133,12 @@
 .items-3 {
     padding: 20px;
     margin: 10px;
+    margin-left: 0px;
     background-color: #000000;
     color: #ffffff;
+}
+
+.items-3 a {
+    color: #ffffff;
+    display: inline-block;
 }
