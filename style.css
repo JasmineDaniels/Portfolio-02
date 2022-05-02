@@ -22,22 +22,45 @@
 .nav {
     background-color: #f008b2;
     padding: 10px;
-    margin: 50px;
-    display: inline-flexbox;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
     
 }
 
 .links {
-    background-color: #000000;
-    color: white;
     display: flex;
     font-size: 35px;
     padding: 20px;
     margin: 10px; 
-    flex-direction: column; 
-    justify-content: flex-end;
-    align-items: flex-end;
-     
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links a {
+    color: #000000;
+    align-self: flex-start;
+}
+
+.Bio {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.Bio h1 {
+    color: #ffffff;
+    align-self: center;
+}
+
+.Bio a {
+    color: #ffffff;
+    align-self: center;
 }
 
 .avatar {
@@ -45,19 +68,27 @@
     height: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    
+    
 }
+
+.avatar img {
+    border-radius: 15px 50px;
+}
+
 
 .container {
     background-color: #ffffff;
     color: #000000;
     padding: 10px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex;
     flex-direction: column;
 }
 
-h2 {
+.contaniner h2 {
     text-decoration: underline;
 }
 
