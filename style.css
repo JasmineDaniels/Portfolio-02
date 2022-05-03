@@ -171,9 +171,11 @@ p {
     display: inline;
     margin-left: 150px;
     border: var(--light);
+    opacity: 1;
+    transition: 0.5s;
     
 }
 
 .items-3 ul:hover {
-     
+     opacity: 0.6;
 }
