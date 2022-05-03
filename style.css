@@ -22,10 +22,6 @@
 
 }
 
-.header h1 {
-
-}
-
 .nav {
     background-color: var(--theme) ;
     padding: 10px;
@@ -84,8 +80,6 @@
     display: flex;
     flex-direction: row;
     margin-left: 250px;
-    
-    
 }
 
 .avatar img {
@@ -140,7 +134,6 @@ p {
 }
 
 
-
 .items-2 ul li {
     padding: 20px;
     margin: 10px;
@@ -157,6 +150,10 @@ p {
     color: var(--light);
 }
 
+.items-2 ul li img {
+    border-radius: 15px 50px;
+}
+
 
 .items-3 {
     padding: 20px;
@@ -169,13 +166,14 @@ p {
 
 
 
-.items-3 a {
+.items-3 ul {
     color: var(--light);
-    font-size: 30px;
-    display: inline-block;
-    margin-left: 35px;
-    margin-right: 35px;
-    /*width: 50px;
-    height: 50px;*/
+    display: inline;
+    margin-left: 150px;
+    border: var(--light);
+    
+}
 
+.items-3 ul:hover {
+     
 }
