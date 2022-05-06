@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 :root {
     --light: #ffffff;
     --dark: #000000;
@@ -13,7 +14,7 @@
     --phone: 480px;
 }
 
-.header{
+.header {
     background-color: var(--dark);
     color: var(--light);
     padding: 10px;
@@ -22,25 +23,23 @@
 .create {
     font-size: larger;
     color: var(--theme);
-
-
 }
 
 /* Navigation */
 .nav {
-    background-color: var(--theme) ;
+    background-color: var(--theme);
     padding: 10px;
     margin: 0px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+
 }
 
 .links {
-    
+
     font-size: 35px;
     padding: 20px;
-    margin: 10px; 
+    margin: 10px;
     flex-direction: column;
     justify-content: space-between;
     align-self: flex-start
@@ -48,9 +47,7 @@
 
 .links a {
     color: var(--dark);
-    /* flex-direction: column;
-    justify-content: space-between;
-    align-self: flex-start; */
+    
 }
 
 .links a:hover {
@@ -61,38 +58,22 @@
 /* Bio */
 
 .Bio {
+    display: flex;
     color: var(--dark);
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    /* padding: 20px; */
-    margin-top: 80px;
-    margin-right: 80px;
-    
+    align-items: center;
 }
-
-
-/*
-.Bio {
-@media screen and (max-width: --desktop) {
-       display: flex
-
-}
-
-}
-*/
 
 .Bio h1 {
     color: var(--light);
     font-size: 30px;
-    
+
 }
 
 .Bio a {
     color: var(--light);
     font-size: 20px;
-    
-
 }
 
 /* My image */
@@ -108,13 +89,6 @@
     border-radius: 15px 50px;
 }
 
-/* Currently disply none */
-.background img{
-    display: none;
-    height: 600px;
-    width: 1600px;
-      
-}
 
 /* Main Content */
 .container {
@@ -140,14 +114,25 @@
     margin-right: 0px;
     background-color: var(--dark);
     color: var(--light);
+    width: 100%;
+    
 }
 
-/* Center Headings */ 
-.items-1 h2, 
+.items-1 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* DONT USE Margins to align*/
+}
+
+/* Center Headings */
+.items-1 h2,
 .items-2 h2,
-.items-3 h2, 
+.items-3 h2,
 .items-2 h3,
-p {
+ p {
     text-align: center;
 }
 
@@ -160,17 +145,18 @@ p {
 }
 
 
+
 .items-2 ul li {
     padding: 20px;
     margin: 10px;
     list-style-type: none;
     display: inline-block;
-    flex-direction: row;
+    
     border-style: solid;
     border-radius: 15px 50px;
     margin-left: 30px;
-    margin-right: 50px
-}
+    margin-right: 50px;
+} 
 
 .items-2 li:hover {
     background-color: var(--dark);
@@ -189,24 +175,66 @@ p {
     margin-right: 0px;
     background-color: var(--dark);
     color: var(--light);
+    width: 100%;
 }
 
-
+.items-3 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .items-3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: var(--light);
-    display: inline;
-    margin-left: 150px;
+    width: 100%;
     border: var(--light);
     opacity: 1;
     transition: 0.5s;
-    
 }
 
 .items-3 ul:hover {
-     opacity: 0.6;
+    opacity: 0.6;
 }
 
 .items-3 ul img {
     border-radius: 15px 15px;
+}
+
+
+@media screen and (max-width: 1168px) {
+    .items-2 ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .items-3 ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 898px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav .links {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        display: flex;
+    }
+
+    
 }
