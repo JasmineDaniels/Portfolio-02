@@ -19,4 +19,4 @@ An example Portfolio - Rough Draft for Jasmine Daniels
 
 - Resume - I do not currently have a presentable resume, I will do so soon.  
 
-![CreateJD](example.png)
+![CreateJD](./images/example.png)
