@@ -8,7 +8,7 @@ An example Portfolio - Rough Draft for Jasmine Daniels
 - Clickable Images
 - Hover Pseudo class
 - Device Responsiveness 
-- Media Screens
+- Media Queries
 - One image larger than the other
 
 
