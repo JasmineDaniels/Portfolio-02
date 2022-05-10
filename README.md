@@ -17,6 +17,8 @@ An example Portfolio - Rough Draft for Jasmine Daniels
 
 *Note - I did not see the mock up design until it was too late to start over, I will resubmit in the future.*
 
-- Resume - I do not currently have a presentable resume, I will do so soon.  
+- Resume - I do not currently have a presentable resume, I will do so soon.
+
+[Create Jasmine Daniels Webpage](https://jasminedaniels.github.io/Portfolio-02/)
 
 ![CreateJD](./images/example.png)
