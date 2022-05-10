@@ -21,7 +21,7 @@ An example Portfolio - Rough Draft for Jasmine Daniels
 - Resume - I do not currently have a presentable resume, I will do so soon.
 
 
-## Go Check it Out
+## Go Check It Out
 [CREATE Jasmine Daniels Webpage](https://jasminedaniels.github.io/Portfolio-02/)
 
 
