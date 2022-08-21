@@ -209,6 +209,10 @@
     border-radius: 15px 15px;
 }
 
+#adoptMe{
+    height: 250px;
+}
+
 @media screen and (max-width: 480px ) {
     .create {
         display: flex;
