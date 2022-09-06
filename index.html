@@ -5,122 +5,274 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CREATE: Jasmine Daniels Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
 
 <body>
     
     <!-- Header -->
-    <header class="header">
-        <h1>
-            <span class="create" >CREATE</span> Jasmine Daniels 
-        </h1>
-
+    <header>
+        <a href="#" class="navbar-brand"> 
+            <h1><span class="create" >create</span> Jasmine Daniels </h1>
+        </a>
     </header>
 
 
     <!-- Navigation -->
-    <nav class="nav">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-style" href="#ABOUT">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-style" href="#SKILLS" tabindex="-1" >Skills</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-style" href="#PROJECTS" tabindex="-1" >Projects</a>
+              </li>
 
-        <div class="links">
-            <a href="#about-me">ABOUT ME</a>
-            <br>
-            <a href="#my-work">PORTFOLIO</a>
-            <br>
-            <a href="#contact-me">CONTACT</a>
-        </div>
-
-        <div class="avatar">
-            <img src="./images/IMG_3276.jpg" alt="JD Image">
-            
-        </div>
-
-        <div class="Bio">
-                <h1>Jasmine Daniels</h1>
-                
-                <h2> MERN Stack Engineer</h2>
-                
-                <!-- Make Resume + Download N/A yet-->
-                <a href="https://www.google.com/"> Download Resume PDF</a>
-        </div>
-
-    </nav>
-
-      
-    
-    
-    <!-- Sections -->
-    <main class="container">
-
-        <section id="about-me" class="items-1">
-            <h2>ABOUT ME</h2>
-            <br>
-            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Temporibus reprehenderit accusamus fugiat dolorum. <br>
-                Doloremque nihil, alias voluptate, ipsum quidem eos facere, repudiandae <br> repellendus  odit labore quae porro eveniet! Accusamus, perferendis. 
-
-            </p>
-
-        </section>
-
-        <section id="my-work" class="items-2">
-            <h2>MY WORK</h2>
-            <br>
-            <p> I LOVE working on powerful concepts that make an Impact! <br> My approach to any project is Solution-based, from conception to production. </p>
-            <br>
-            <ul>
-                <li class="horiseon">
-                    <h3 class="mb-3">Horiseon Marketing</h3>
-                    
-                    <a href="https://jasminedaniels.github.io/homework-week1/" >
-                        <img src="./images/screenshot.png" alt="Horiseon"
-                        width="300" height="250">
-                    </a>
-                    <div class="d-flex justify-content-center mt-3">
-                        <h6> Hint: Clickable Image 😉</h6>
-                    </div>
-                </li>
-
-                <li>
-                    <h3>Adopt Me</h3>
-                    <img id="adoptMe" src="./images/adoptMeGIF.gif" alt="FreeDOM">
-                    <br>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a class="btn btn-primary" type="button" href="https://adoptme5.herokuapp.com">Adopt Me App</a> 
-                    </div>
-                </li>
-
-                <li>
-                    <h3>RetrievALL App</h3>
-                    <img src="https://via.placeholder.com/200" alt="RetrievALL">
-                    <br>
-                    <a href="https://www.google.com/">RetrievALL App</a> 
-                    <h4>Coming Soon!</h4
-                        >
-                </li>
             </ul>
 
+          </div>
+        </div>
+    </nav>
+        
+    
+    <!-- Sections -->
+    <main class="container-fluid">
+
+        <section class="container mt-5" id="ABOUT">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="avatar-image">
+                        <img src="./images/IMG_3276.jpg" alt="Jasmine Daniels" class="card-img rounded-circle">
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <h2>ABOUT ME</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Temporibus reprehenderit accusamus fugiat dolorum. <br>
+                         Doloremque nihil, alias voluptate, ipsum quidem eos facere, repudiandae <br> repellendus  odit labore quae porro eveniet! Accusamus, perferendis. 
+         
+                    </p>
+
+                    <div>
+                        <a href="https://www.canva.com/design/DAFJ-M8DVn8/HizFAaXvTE_VbWmF3ZgyHg/view?utm_content=DAFJ-M8DVn8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
+                        type="button" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Resume</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+       
+        <section id="PROJECTS" class="container my-5">
+            <h2>LATEST PROJECTS</h2>
+
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GXZ_njobMcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Tech Hub</h3>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore iusto et commodi repellendus rerum ea nisi explicabo inventore excepturi deleniti blanditiis nemo obcaecati impedit officiis saepe alias, sapiente sed? 
+                        <br>
+                        <br>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga non est, aspernatur, suscipit enim molestiae ea doloremque facere deserunt odit porro? Eum odio non temporibus perspiciatis a labore ullam debitis?
+                    </p>
+
+                    <div class="d-flex justify-content-center">
+                        <a href="https://lionsgatetech.herokuapp.com/" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-primary mx-2">View Site</a>
+                        <a href="https://github.com/JasmineDaniels/LionsGateTech" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-success">View Repository</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <h3>AdoptMe - <span>Under Construction</span></h3>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore iusto et commodi repellendus rerum ea nisi explicabo inventore excepturi deleniti blanditiis nemo obcaecati impedit officiis saepe alias, sapiente sed? 
+                        <br>
+                        <br>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga non est, aspernatur, suscipit enim molestiae ea doloremque facere deserunt odit porro? Eum odio non temporibus perspiciatis a labore ullam debitis?
+                    </p>
+
+                    <div class="d-flex justify-content-center">
+                        <a href="https://adoptme5.herokuapp.com/" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-primary mx-2">View Site</a>
+                        <a href="https://github.com/JasmineDaniels/AdoptMe" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-success">View Repository</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1cTcSBvCHYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div>
+                        <img src="./images/Results _ Weather Search.gif" height="350" alt="Weather App">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GXZ_njobMcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Weather App</h3>
+                    <p class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam labore iusto et commodi repellendus rerum ea nisi explicabo inventore excepturi deleniti blanditiis nemo obcaecati impedit officiis saepe alias, sapiente sed? 
+                        <br>
+                        <br>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga non est, aspernatur, suscipit enim molestiae ea doloremque facere deserunt odit porro? Eum odio non temporibus perspiciatis a labore ullam debitis?
+                    </p>
+
+                    <div class="d-flex justify-content-center">
+                        <a href="https://jasminedaniels.github.io/VexxT-Rexx/" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-primary mx-2">View Site</a>
+                        <a href="https://github.com/JasmineDaniels/VexxT-Rexx" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-success">View Repository</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
         </section>
 
-        <section id="contact-me" class="items-3">
-            <h2>CONTACT ME</h2>
+        
+
+        <section id="SKILLS" class="container my-5">
+            <div class="row my-5 ">
+                <h2>SKILLS</h2>
+            </div>
+            
+            <div class="row row-cols-4 mb-3">
+                <div class="col">
+                    <div class="tech-image">
+                        <img src="./images/html.png" alt="html-logo" class="tech-img">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image">
+                        <img src="./images/cssplus.jpg" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image">
+                        <img src="./images/js2.png" alt="html-logo" class="tech-img">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image">
+                        <img src="./images/boot.png" alt="html-logo" class="tech-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-4">
+                <div class="col">
+                    <div class="tech-image-lg">
+                        <img src="./images/node-cropped.jpg" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image-lg">
+                        <img src="./images/sequelize-logo.png" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image">
+                        <img src="./images/docker.png" alt="html-logo" class="tech-img">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image-lg">
+                        <img src="./images/react.png" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-4">
+                <div class="col">
+                    <div class="tech-image-lg">
+                        <img src="./images/MongoDB-Logo.jpeg" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image-lg">
+                        <img src="./images/express.png" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image-lg">
+                        <img src="./images/sql.png" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tech-image">
+                        <img src="./images/jquery.png" alt="html-logo" class="tech-fit">
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+
+        <section id="CONTACT" class="container my-5">
+            <h2>CONTACT</h2>
             <br>
-            <div>
-                <ul>
-                    <a href="mailto:create.jasminedaniels@gmail.com"> 
-                        <img src="./images/gmail.png" alt="gmail thumbnail" width="200" height="100"></a>
-                </ul>
+            <div class="row">
+                <div class="col-md-3 d-flex flex-column align-items-end">
+                    <h4 class="mx-3" style="text-decoration:underline;">Links</h4>
+                    <div class="contact-image">
+                        <a href="mailto:create.jasminedaniels@gmail.com"> 
+                            <img src="./images/gmlogo.png" alt="gmail thumbnail" class="contact-img">
+                        </a>  
+                    </div>
+                    <div class="contact-image">
+                        <a href="https://github.com/JasmineDaniels" target="_blank" rel="noopener noreferrer"> 
+                            <img src="./images/GH1.png" alt="gitHub thumbnail" class="contact-img">
+                        </a>  
+                    </div>
+                    <div class="contact-image mt-2">
+                        <a href="https://www.linkedin.com/in/jasmine-daniels-3a15a1235/" target="_blank" rel="noopener noreferrer"> 
+                            <img src="./images/linkedin1.png" alt="linkedIn thumbnail" class="contact-img">
+                        </a>  
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="">
+                        <div class="form-group mb-3">
+                            <label for="inputName" class="mb-1">Name:</label>
+                            <input type="text" name="name" class="form-control" id="inputName" placeholder="Your Name" required>
+                        </div>
 
-                <ul>
-                    <a href="https://github.com/JasmineDaniels">
-                        <img src="./images/gh.png" alt="github thumbnail" width="225" height="100"></a>
-                </ul>
+                        <div class="form-group mb-3">
+                            <label for="phone" class="mb-1">Phone:</label>
+                            <input type="text" class="form-control" id="phone" placeholder="(444)-444-4444">
+                        </div>
 
-                <ul>
-                    <a href="https://www.linkedin.com/in/jasmine-daniels-3a15a1235/">
-                        <img src="./images/linkedin.png" alt="linkedin thumbnail" width="200" height="100"></a>
-                </ul>
+                        <div class="form-group mb-3">
+                            <label for="exampleInputEmail1" class="mb-1">Email address:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1" class="mb-1">Message:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leave A Message"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary my-3">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
 
         </section>
