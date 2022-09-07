@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="avatar-image">
-                        <img src="./images/IMG_3276.jpg" alt="Jasmine Daniels" class="card-img rounded-circle">
+                        <img src="./images/IMG_3276.jpg" alt="Jasmine Daniels" class="card-img ">
                     </div>
                 </div>
                 <div class="col-md-6 ">
@@ -247,7 +247,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <form action="https://formsubmit.co/create.jasminedaniels@gmail.com" method="post">
+                    <form action="https://formsubmit.co/8bdcb058f529774aa91eb33ea6321f4d" method="post">
                         <div class="form-group mb-3">
                             <label for="inputName" class="mb-1">Name:</label>
                             <input type="text" name="name" class="form-control" id="inputName" placeholder="Your Name" required>
@@ -270,7 +270,24 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ex. Questions, Best time to contact, etc."></textarea>
                         </div>
                         <div class="text-center">
-                            <button id="submit-form" type="submit" class="btn btn-primary my-3">Submit</button>
+                            <button id="submit-form" type="submit" class="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#myModal">Submit</button>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header d-flex justify-content-md-center" style="background-color: blue; color: #fff">
+                                            <h5 class="modal-title"> Success</h5>
+                                            <!-- {{!-- <button type="button" class="btn-close" data-bs-dismiss="modal"></button> --}} -->
+                                        </div>
+                                        <div class="modal-body mb-3">
+                                            <h3> Awesome! </h3> <br> <h5> I have recieved your message <br> I will contact you shortly 😃 </h5>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-md-center">
+                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>

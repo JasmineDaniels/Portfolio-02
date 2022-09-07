@@ -18,7 +18,7 @@ document.querySelector('#submit-form').addEventListener('click', (event) => {
         alert(`Name and Email are required`)
         return;
     } else {
-        fetch('https://formsubmit.co/ajax/create.jasminedaniels@gmail.com', {
+        fetch('https://formsubmit.co/ajax/8bdcb058f529774aa91eb33ea6321f4d', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
