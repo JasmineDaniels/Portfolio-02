@@ -247,10 +247,11 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <form action="">
+                    <form action="https://formsubmit.co/create.jasminedaniels@gmail.com" method="post">
                         <div class="form-group mb-3">
                             <label for="inputName" class="mb-1">Name:</label>
                             <input type="text" name="name" class="form-control" id="inputName" placeholder="Your Name" required>
+                            <input type="hidden" name="_subject" value="New Job Opportunity!">
                         </div>
 
                         <div class="form-group mb-3">
@@ -260,16 +261,16 @@
 
                         <div class="form-group mb-3">
                             <label for="exampleInputEmail1" class="mb-1">Email address:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
 
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1" class="mb-1">Message:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leave A Message"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ex. Questions, Best time to contact, etc."></textarea>
                         </div>
                         <div class="text-center">
-                            <button class="btn btn-primary my-3">Submit</button>
+                            <button id="submit-form" type="submit" class="btn btn-primary my-3">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -281,5 +282,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="/js/script.js"></script> -->
+    <script src="./index.js"></script>
 </body>
 </html>
