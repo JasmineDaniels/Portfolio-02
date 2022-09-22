@@ -7,6 +7,7 @@
     <title>CREATE: Jasmine Daniels Portfolio</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -54,8 +55,8 @@
         <section class="container mt-5" id="ABOUT">
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-center">
-                    <div class="avatar-image">
-                        <img src="./images/IMG_4972.jpg" alt="Jasmine Daniels" class="card-img ">
+                    <div class="avatar-image rounded">
+                        <img src="./images/IMG_4972.jpg" alt="Jasmine Daniels" class="card-img rounded">
                     </div>
                 </div>
                 <div class="col-md-6 ">
@@ -69,7 +70,7 @@
 
                     <div>
                         <a href="https://www.canva.com/design/DAFJ-M8DVn8/QKvh9Z7KrXONDh94GjkJuw/view?utm_content=DAFJ-M8DVn8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
-                        type="button" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Resume</a>
+                        type="button" target="_blank" rel="noopener noreferrer" class="btn btn-success">Resume</a>
                     </div>
                 </div>
 
@@ -82,17 +83,18 @@
 
             <div class="row my-5">
                 <div class="col-md-6">
-                    <div>
+                    <div data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/GXZ_njobMcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-md-6 px-3">
                     <h3 class="text-center">Tech Hub</h3>
-                    <p class="description">
+                    <p class="description ">
                         Tech Hub is a social blog style Express application geared toward the tech community, to openly discuss all things Tech! 
                         <br>
                         <br>
                         Tech Hub employs the power of storing secure data on a MySQL database within an Express session, a Sequelize ORM allows for seamless data retrieval and features full content management CRUD operations for user interactions such as Posts and Comments, where the comments and posts are associated with their referenced user. 
+                        
                         New users get to experience the site but cannot access full features until signed in. 
                     </p>
 
@@ -119,7 +121,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 ">
-                    <div>
+                    <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/kdiDlpEIarA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
@@ -149,7 +151,7 @@
             <hr>
             <div class="row my-5">
                 <div class="col-md-6">
-                    <div>
+                    <div data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                         <img src="./images/FinalTrip.gif" height="350" alt="Weather App">
                         <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GXZ_njobMcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
@@ -348,6 +350,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="/js/script.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./index.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
