@@ -6,8 +6,7 @@ Creative and technical skills backed with 10+ years of customer service backgrou
 
 Checkout my webiste below for my resume, my latest works, and more information about yours truly!
 
-## Check Out My Site
-### [CREATE Jasmine Daniels Webpage](https://jasminedaniels.github.io/Portfolio-02/)
+## [CREATE Jasmine Daniels Webpage](https://jasminedaniels.github.io/Portfolio-02/)
 
 
 ![CreateJD](./images/updatedPort.png)
