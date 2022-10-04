@@ -16,6 +16,9 @@ header {
     font-family: 'Oswald', sans-serif;
     
 }
+.brand{
+    padding-left: 8px;
+}
 
 .btn-success {
     background-color: var(--theme) !important;

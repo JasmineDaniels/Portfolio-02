@@ -1,28 +1,13 @@
 # CREATE Jasmine Daniels
 
-An example Portfolio - Rough Draft for Jasmine Daniels 
+Jasmine Daniels, A professional software developer with experience in building full stack web applications with user friendly front-end designs that compliment new or existing database structures and maintenance protocols.
 
-## Tasks Completed
-- Dev name, photo, about them
-- Nav Link - UI Scroll 
-- Clickable Images
-- Hover Pseudo class
-- Device Responsiveness 
-- Media Queries
-- One image larger than the other
-- README.md file 
+Creative and technical skills backed with 10+ years of customer service background allow me to excel in producing projects and features that make an impact for the end user and retain client relationships.
+
+Checkout my webiste below for my resume, my latest works, and more information about yours truly!
+
+## Check Out My Site
+### [CREATE Jasmine Daniels Webpage](https://jasminedaniels.github.io/Portfolio-02/)
 
 
-## Tasks Incomplete
-- Mock Up - the Mock up design and my design do not match.
-
-*Note - I did not see the mock up design until it was too late to start over, I will resubmit in the future.*
-
-- Resume - I do not currently have a presentable resume, I will do so soon.
-
-
-## Go Check It Out
-[CREATE Jasmine Daniels Webpage](https://jasminedaniels.github.io/Portfolio-02/)
-
-
-![CreateJD](./images/example.png)
+![CreateJD](./images/updatedPort.png)
